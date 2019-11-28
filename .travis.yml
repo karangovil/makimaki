@@ -10,4 +10,5 @@ install: true
 script:
   - pwd
   - ls
+  - export GOPATH=$(go env GOPATH)/src/github.com/karangovil/
   - go test -v -mod=vendor ./...
