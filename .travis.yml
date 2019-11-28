@@ -5,13 +5,9 @@ go:
 env:
   - GO111MODULE=on
 
-git:
-  clone: false
-
 install: true
 
 script:
   - pwd
   - ls
-  - git clone git@github.com:karangovil/makimaki.git
   - go test -v ./...
