@@ -5,10 +5,13 @@ go:
 env:
   - GO111MODULE=on
 
+git:
+  clone: false
+
 install: true
 
 script:
   - pwd
   - ls
-  - export GOPATH=$(go env GOPATH)/src/github.com/karangovil/
+  - git clone git@github.com:karangovil/makimaki.git
   - go test -v ./...
