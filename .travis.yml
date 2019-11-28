@@ -1,6 +1,6 @@
 language: go
 go: 
- - "1.13.x"
+ - "1.10.x"
 
 env:
   - GO111MODULE=on
@@ -8,4 +8,4 @@ env:
 install: true
 
 script:
-  - go test -v -mod=vendor ./...
+  - go test -v ./...
