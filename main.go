@@ -4,7 +4,7 @@ import (
     "fmt"
     "os"
     "os/user"
-    "makimaki/repl"
+    "github.com/karangovil/makimaki/repl"
 )
 
 func main() {

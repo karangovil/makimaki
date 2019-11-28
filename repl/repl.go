@@ -4,8 +4,8 @@ import (
     "bufio"
     "fmt"
     "io"
-    "makimaki/lexer"
-    "makimaki/token"
+    "github.com/karangovil/makimaki/lexer"
+    "github.com/karangovil/makimaki/token"
 )
 
 const PROMPT = ">>"

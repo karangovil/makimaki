@@ -2,7 +2,7 @@ package lexer
 
 import (
     "testing"
-    "makimaki/token"
+    "github.com/karangovil/makimaki/token"
 )
 
 func TestNextToken(t *testing.T) {
